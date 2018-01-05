@@ -1,0 +1,25 @@
+name: "IceDan"
+navbar:
+  title: "IceDan"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "first"
+      href:  roses.html
+    - text: "second"
+      href: Ultima_Cena.html
+      icon: fa-gear
+      menu:
+      - text: "first"
+        href: roses.html
+      - text: "second"
+        href: Ultima_Cena.html
+output:
+  html_document:
+    theme: spacelab
+    highlight: pygments
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    smooth_scroll: false
+    df_print: paged
